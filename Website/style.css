@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    background-color: #DFD0B8;
+}
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    background-color: #DFD0B8;
+    padding: 10px 100px 10px 60px;
+    border-bottom: #B87C4C 2px solid;
+}
+
+
+.HeaderText {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+
+.UpperLinks {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: transparent; 
+    padding: 0;
+}
+
+.UpperLinks a {
+    font-size: 25px;
+    text-align: right;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #452829;
+}
+
+.UpperLinks a:hover {
+    text-decoration: none;
+    color: #B87C4C;
+}
+
+.Tinapay_Logo{
+    display: flex;
+}
+.Tinapay_Logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: #B87C4C 3px solid;
+}
+
+.Tinapay_Logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #452829;
+    padding: 5px 20px 0px 10px;
+}
+    /*  Product Page    */
+.ProductText {
+    font-family: 'Roboto', sans-serif;
+    color: #452829;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.Box{
+    margin: 100px 80px 70px 80px;
+    border: 5px solid #B87C4C;
+    border-radius: 150px;
+    transition: transform 0.3s ease;
+    padding: 100px 100px;           /* inner spacing */
+    display: flex;                
+    flex-wrap: wrap;              /* allow wrapping on small screens */
+    gap: 150px;                    /* space between items */
+    align-items: flex-start;
+    justify-content: center;      /* center all items (instead of space-between) */
+    box-sizing: border-box;
+}
+
+/* black rounded frame */
+.Pandesal_Frame, 
+.Ensaymada_Frame, 
+.Monay_Frame, 
+.Pande_Coco_Frame, 
+.Spanish_Bread_Frame, 
+.Pande_Regla_Frame, 
+.Pianono_Frame, 
+.Biscocho_Frame,
+.Pande_Ube_Frame,
+.Pande_Leche_Frame,
+.Siopao_Frame,
+.Mamon_Frame,
+.Tasty_Bread_Frame,
+.Hopiang_Baboy_Frame,
+.Buko_Pie_Frame,
+.Inipit_Frame,
+.Pinagong_Frame,
+.Broas_Frame,
+.Putok_Frame, 
+.Otap_Frame {
+    width: 400px;
+    height: 400px;
+    border: 4px solid #452829;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.Pandesal_Frame img,
+.Ensaymada_Frame img,
+.Monay_Frame img,
+.Pande_Coco_Frame img,
+.Spanish_Bread_Frame img,
+.Pande_Regla_Frame img,
+.Pianono_Frame img,
+.Biscocho_Frame img,
+.Pande_Ube_Frame img,
+.Pande_Leche_Frame img,
+.Siopao_Frame img,
+.Mamon_Frame img,
+.Tasty_Bread_Frame img,
+.Hopiang_Baboy_Frame img,
+.Buko_Pie_Frame img,
+.Inipit_Frame img
+.Pinagong_Frame img,
+.Broas_Frame img, 
+.Putok_Frame img,
+.Otap_Frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* crop & fill the frame like Pandesal */
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* caption under the frame */
+
+.Pandesal_Item .Pandesal_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 100px;
+}
+
+.Ensaymada_Item .Ensaymada_Text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 80px;
+}
+
+.Monay_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 125px;
+}
+
+.Pandesal_Frame:hover, 
+.Ensaymada_Frame:hover, 
+.Monay_Frame:hover, 
+.Pande_Coco_Frame:hover, 
+.Spanish_Bread_Frame:hover, 
+.Pande_Regla_Frame:hover, 
+.Pianono_Frame:hover, 
+.Biscocho_Frame:hover,
+.Pande_Ube_Frame:hover,
+.Pande_Leche_Frame:hover,
+.Siopao_Frame:hover,
+.Mamon_Frame:hover,
+.Tasty_Bread_Frame:hover,
+.Hopiang_Baboy_Frame:hover,
+.Buko_Pie_Frame:hover,
+.Inipit_Frame:hover,
+.Pinagong_Frame:hover,
+.Broas_Frame:hover,
+.Putok_Frame:hover,
+.Otap_Frame:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);   
+}
+
+.Pande_Coco_Item .Pande_Coco_Text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 60px;
+}
+
+.Spanish_Bread_Item .Spanish_Bread_Text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 60px;
+}
+
+.Pande_Regla_Item .Pande_Regla_Text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 60px;
+}
+.Pianono_Item .Pianono_Text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 120px;
+}
+
+.Biscocho_Item .Biscocho_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 120px;
+}
+
+.Pande_Ube_Item .Pande_Ube_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 80px;
+}
+.Pande_Leche_Item .Pande_Leche_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 70px;
+}
+
+.Siopao_Item .Siopao_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 130px;
+}
+
+.Mamon_Item .Mamon_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 130px;
+}
+.Tasty_Bread_Item .Tasty_Bread_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 80px;
+}
+
+.Hopiang_Baboy_Item .Hopiang_Baboy_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 50px;
+}
+
+.Buko_Pie_Item .Buko_Pie_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 115px;
+}
+.Inipit_Item .Inipit_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 140px;
+}
+
+.Pinagong_Item .Pinagong_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 120px;
+}
+
+.Broas_Item .Broas_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 150px;
+}
+
+.Putok_Item .Putok_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 140px;
+}
+
+.Otap_Item .Otap_Text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #222831;
+    margin: 12px 0 0 150px;
+}

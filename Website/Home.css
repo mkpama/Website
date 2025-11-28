@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #DFD0B8;
+}
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    background-color: #DFD0B8;
+    padding: 10px 100px 10px 60px;
+    border-bottom: #B87C4C 2px solid;
+}
+
+
+.HeaderText {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+
+.UpperLinks {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: transparent; 
+    padding: 0;
+}
+
+.UpperLinks a {
+    font-size: 25px;
+    text-align: right;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #452829;
+}
+
+.UpperLinks a:hover {
+    text-decoration: none;
+    color: #B87C4C;
+}
+
+.Tinapay_Logo{
+    display: flex;
+}
+.Tinapay_Logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: #B87C4C 3px solid;
+}
+
+.Tinapay_Logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #452829;
+    padding: 5px 20px 0px 10px;
+}
+
+.WelcomeText {
+    color: #B87C4C;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.WelcomeText h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #B87C4C;
+    text-align: center;
+    font-size: 50px;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+.TimplangPinoy h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #452829;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.TimplangPinoy p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #452829;
+}
+
+.ViewProduct { 
+    border: 5px solid #452829;
+    background-color: #452829;
+    display: flex;
+    justify-content: center;
+    margin: 40px 916px 0 916px;
+    padding: 20px 0 30px 0px;
+    border-radius: 30px;
+
+}
+
+.ViewProduct:hover {
+    background-color: #57595B;
+    transition: background-color 0.3s ease;
+}
+
+.ViewProduct_Button a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #F3E8DF;
+    text-decoration: none;
+    padding: 50px;
+    margin: 0px;
+}
